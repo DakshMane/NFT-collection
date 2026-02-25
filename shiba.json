@@ -1,0 +1,52 @@
+{
+  "name": "WOW Shiba — Neon Future Drifter",
+  "description": "A futuristic Gen-Z Shiba exploring a neon cybercity, rocking a holographic visor, jetpack, and cosmic drink. This cartoon-styled cyber companion represents digital culture, future tech, and playful metaverse vibes.",
+  "image": "https://ipfs.io/ipfs/QmZxLgsap72ricmSRsp2WktTxBuwUcgBtNC2wMNkhSBAeC",
+
+  "attributes": [
+    {
+      "trait_type": "Character",
+      "value": "Shiba Inu"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Futuristic Cyberpunk"
+    },
+    {
+      "trait_type": "Style",
+      "value": "Cartoon / Gen-Z"
+    },
+    {
+      "trait_type": "Visor Text",
+      "value": "WOW"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Jetpack"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Holographic Visor"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Cosmic Drink"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Hoverboard"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Neon Futuristic City"
+    },
+    {
+      "trait_type": "Vibe",
+      "value": "Metaverse Explorer"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary"
+    }
+  ]
+}

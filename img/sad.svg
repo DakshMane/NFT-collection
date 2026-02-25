@@ -1,0 +1,44 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Face gradient -->
+    <radialGradient id="faceGradient" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFE27A"/>
+      <stop offset="60%" stop-color="#FFC83D"/>
+      <stop offset="100%" stop-color="#F4A300"/>
+    </radialGradient>
+
+    <!-- Eye gradient -->
+    <radialGradient id="eyeShade" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#555"/>
+      <stop offset="100%" stop-color="#111"/>
+    </radialGradient>
+
+    <!-- Tear gradient -->
+    <linearGradient id="tearGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9BE7FF"/>
+      <stop offset="100%" stop-color="#3DB9FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Face -->
+  <circle cx="100" cy="100" r="90" fill="url(#faceGradient)" />
+
+  <!-- Eyes -->
+  <circle cx="65" cy="90" r="10" fill="url(#eyeShade)" />
+  <circle cx="135" cy="90" r="10" fill="url(#eyeShade)" />
+
+  <!-- Eye highlights -->
+  <circle cx="61" cy="86" r="3" fill="#fff" opacity="0.7"/>
+  <circle cx="131" cy="86" r="3" fill="#fff" opacity="0.7"/>
+
+  <!-- Sad mouth -->
+  <path d="M60 140 Q100 105 140 140"
+        fill="none"
+        stroke="#6B3E00"
+        stroke-width="8"
+        stroke-linecap="round"/>
+
+  <!-- Tear -->
+  <path d="M140 105 C150 120 150 140 135 150 C120 140 120 120 130 105 Z"
+        fill="url(#tearGradient)" opacity="0.9"/>
+</svg>
